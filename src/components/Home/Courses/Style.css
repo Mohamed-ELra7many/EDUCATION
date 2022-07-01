@@ -1,0 +1,52 @@
+/*_____________COURSES_______________*/
+.courses{
+    background-image: url("./courses-bg.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 130px;
+}
+.courses .item{
+    margin: 10px;
+    height: 355px;
+}
+.courses .item img{
+    width: 100%;
+    transition: .5s;
+}
+.courses .item:hover img{
+    transform: translateY(10px);
+}
+.courses .text{
+    background-color: #fff;
+}
+.courses .text h4{
+    padding: 25px;
+    font-size: 18px;
+    color: #1f272b;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+.courses .text .rate-price{
+    padding: 25px;
+
+}
+
+.courses .text .rate-price ul li{
+    display: inline-block;
+    margin-right: 1px;
+}
+.courses .text .rate-price ul li i{
+    color: #f5a425;
+    font-size: 14px;
+}
+.courses .text .rate-price span{
+    color: #a12c2f;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+}

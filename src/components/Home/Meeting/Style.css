@@ -1,0 +1,166 @@
+/*______________WEBSITE-METTING_______________*/
+.web-meeting{
+    background-image: url("./meetings-bg.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 270px;
+    padding-bottom: 110px;
+}
+
+.web-meeting .categories{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px;
+    margin-right: 45px;
+    margin-bottom: 20px;
+}
+.web-meeting .categories h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f272b;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+.web-meeting .categories ul{
+    margin-bottom: 0;
+}
+.web-meeting .categories ul li{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.web-meeting .categories ul li a{
+    font-size: 15px;
+    color: #1f272b;
+    font-weight: 500;
+    transition: all .3s;
+    text-decoration: none;
+}
+.web-meeting .categories ul li a:hover{
+    color: #a12c2f;
+}
+.met-item{
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.met-item .img-price{
+    position: relative;
+}
+.met-item .img-price .price{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 99;
+}
+.met-item .img-price .price span{
+    font-size: 16px;
+    color: #1f272b;
+    font-weight: 600;
+    background-color: rgba(250,250,250,0.9);
+    padding: 7px 12px;
+    border-radius: 10px;
+}
+.met-item .img-price img{
+    width: 100%;
+    transition: .5s;
+}
+.met-item .img-price img:hover{
+    transform: scale(1.1);
+}
+.met-item .text{
+    background-color: #fff;
+    padding: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.met-item .text .date{
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+}
+.met-item .text .date h5{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #a12c2f;
+}
+.met-item .text .date h5 span{
+    display: block;
+    color: #1f272b;
+    font-size: 22px;
+    margin-top: 7px;
+}
+
+.met-item .text p{
+    margin-left: 50px;
+    color: #1f272b;
+    font-size: 14px;
+}
+
+
+
+/*______________MEETING-PAGE________________*/
+.head-meeting{
+    background-image: url("./heading-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 230px;
+    padding-bottom: 110px;
+    text-align: center;
+}
+.head-meeting h5{
+    margin-top: 0px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.head-meeting h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.Metting-page{
+    background-image: url("./meetings-page-bg.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 140px;
+}
+.Metting-page .filter{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.Metting-page .filter ul{
+    margin-bottom: 0;
+}
+.Metting-page .filter ul button{
+    font-size: 13px;
+    color: #a12c2f;
+    background-color: #fff;
+    padding: 11px 30px;
+    display: inline-block;
+    border-radius: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all .3s;
+    cursor: pointer;
+    margin: 0px 3px;
+}
+.Metting-page .filter ul button:hover{
+    background-color: #a12c2f;
+    color: #fff;
+}

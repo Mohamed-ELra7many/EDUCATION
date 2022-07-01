@@ -1,0 +1,46 @@
+/*______________SERVICES___________________*/
+.services{
+    margin-top: -95px;
+    position: absolute;
+    width: 100%;
+    z-index: 22;
+    overflow: hidden;
+}
+.services .item{
+    background-image: url("./service-item-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+    margin: 10px;
+}
+.services .item .img{
+    max-width: 60px;
+    margin: 0 auto;
+}
+.services .item .img img{
+    display: block;
+    width: 100%;
+}
+
+.services .item .text h5{
+    
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.services .item .text p{
+    color: #fff;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+@media (max-width: 992px){
+    .services {
+        margin-top: -40px;
+}
+}

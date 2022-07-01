@@ -1,0 +1,39 @@
+/*____________-VIDEO___________________*/
+.video{
+    position: relative;
+    max-height: 100%;
+    overflow: hidden;
+    margin-bottom: -7px;
+}
+.video video{
+    object-fit: cover;
+    height: 70vh;
+    width: 100%;
+}
+.video .text{
+    position: absolute;
+    top: 36%;
+    z-index: 333;
+}
+.video .text h5{
+    margin-top: 0px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.video .text h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.video .text p{
+    color: #fff;
+    font-size: 14px;
+    max-width: 570px;
+}

@@ -1,0 +1,41 @@
+/*_______________FACTS______________*/
+.Facts{
+    background-image: url(./facts-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0px 125px 0px;
+}
+.n-count{
+    text-align: center;
+    background-color: rgba(250,250,250,0.15);
+    border-radius: 20px;
+    padding: 25px 6px 35px 5px;
+    margin: 15px 0px;
+}
+.n-count .count{
+    margin: 5px 0px;
+    color: #f5a425;
+    font-weight: 700;
+    font-size: 36px;
+}
+.n-count .title{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+.Facts .video{
+    text-align: center;
+    margin-left: 70px;
+    background-image: url("./video-item-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.Facts .video img{
+    padding: 170px 0px;
+    max-width: 56px;
+}
